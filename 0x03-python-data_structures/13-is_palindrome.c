@@ -1,19 +1,3 @@
-micoliser
-/
-alx-higher_level_programming
-Public
-Code
-Issues
-Pull requests
-Actions
-Projects
-Security
-Insights
-alx-higher_level_programming/0x03-python-data_structures/13-is_palindrome.c
-@micoliser
-micoliser 100-print_python_list_info.c
- 1 contributor
-39 lines (32 sloc)  652 Bytes
 #include "lists.h"
 
 /**
