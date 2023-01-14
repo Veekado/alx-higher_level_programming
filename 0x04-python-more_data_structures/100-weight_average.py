@@ -3,12 +3,11 @@ def weight_average(my_list=[]):
     if len(my_list) == 0:
         return 0
 
-    avg = 0
-    size= 0
+    divisor = 0
+    dividend = 0
 
     for item in my_list:
-        avg += item[0] * item[1]
-        size += item[1]
+        divisor += item[0] * item[1]
+        dividend += item[1]
 
-    weighed  = float(avg / size)
-    return weighed
+    return divisor / dividend
