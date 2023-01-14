@@ -10,4 +10,5 @@ def weight_average(my_list=[]):
         avg += item[0] * item[1]
         size += item[1]
 
-    return (avg / size)
+    weighed  = float(avg / size)
+    return weighed
